@@ -21,5 +21,4 @@ function switchPackage(pkg) {
 }
 
 
-module.exports.loadModule = loadModule
 module.exports.switchVersion = switchPackage
