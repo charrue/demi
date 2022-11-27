@@ -7,10 +7,11 @@ export default defineConfig({
   ],
   format: ["cjs", "esm"],
   outDir: "./lib",
-  dts: true,
+  dts: {
+    resolve: true
+  },
   external: [
     "vue",
-    "@vue/reactivity",
-    "@vue-reactivity/watch",
+    "@charrue/reactivity",
   ]
 });

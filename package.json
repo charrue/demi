@@ -1,6 +1,6 @@
 {
   "name": "@charrue/demi",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "用于兼容@charrue/vump和vue的响应式API的工具包",
   "keywords": [
     "charrue",
@@ -22,8 +22,7 @@
     "build": "tsup"
   },
   "devDependencies": {
-    "@vue-reactivity/watch": "^0.2.0",
-    "@vue/reactivity": "^3.2.45",
+    "@charrue/reactivity": "latest",
     "tsup": "^6.4.0",
     "typescript": "^4.9.3",
     "vue": "^3.2.45"
