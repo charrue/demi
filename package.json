@@ -1,6 +1,6 @@
 {
   "name": "@charrue/demi",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "用于兼容@charrue/vump和vue的响应式API的工具包",
   "keywords": [
     "charrue",
