@@ -1,5 +1,11 @@
 {
   "name": "@charrue/demi",
+  "version": "0.0.1",
+  "description": "用于兼容@charrue/vump和vue的响应式API的工具包",
+  "keywords": [
+    "charrue",
+    "reactivity"
+  ],
   "repository": "https://github.com/charrue/demi.git",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
