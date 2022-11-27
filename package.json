@@ -1,0 +1,24 @@
+{
+  "name": "@charrue/demi",
+  "repository": "https://github.com/charrue/demi.git",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "types": "lib/index.d.ts",
+  "bin": {
+    "charrue-demi-switch": "bin/switch.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@vue-reactivity/watch": "^0.2.0",
+    "@vue/reactivity": "^3.2.45",
+    "tsup": "^6.4.0",
+    "typescript": "^4.9.3",
+    "vue": "^3.2.45"
+  }
+}
